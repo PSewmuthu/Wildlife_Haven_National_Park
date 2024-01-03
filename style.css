@@ -103,7 +103,7 @@ section#hero {
 	background-attachment: fixed;
 	clip-path: circle(180vh at 50% -80vh);
 	z-index: 1;
-	animation: change 20s infinite ease-in-out;
+	animation: change 60s infinite ease;
 }
 
 #hero h1 {
