@@ -128,6 +128,36 @@ section#hero {
 	font-family: "Merienda";
 }
 
+.about {
+	padding: 100px 50px 10px 50px;
+}
+
+.about_text {
+	width: 60%;
+}
+
+.action_btn {
+	color: #0074cc;
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.action_btn:hover {
+	color: #4da6ff;
+}
+
+.about_img {
+	width: 45%;
+	height: 450px;
+	margin: -35% auto auto 65%;
+}
+
+img.about {
+	width: 70%;
+	border-radius: 200px;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 992px) {
