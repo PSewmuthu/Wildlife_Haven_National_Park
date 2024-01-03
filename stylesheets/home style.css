@@ -1,0 +1,260 @@
+/*
+    Repository  : https://github.com/PSewmuthu/Wildlife_Haven_National_Park
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lilita+One&family=Merienda&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	min-height: 150vh;
+}
+
+/* HERO */
+
+section#hero {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	width: 100%;
+	background: url("../images/slideshow/1.webp");
+	background-size: cover;
+	background-attachment: fixed;
+	clip-path: circle(180vh at 50% -80vh);
+	z-index: 1;
+	animation: change 60s infinite ease;
+}
+
+#hero .text {
+	width: 70%;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#hero h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	font-family: "Lilita One";
+}
+
+#hero p {
+	font-size: 1.5rem;
+	color: lightcyan;
+	font-family: "Merienda";
+}
+
+/* ABOUT */
+
+.about {
+	padding: 100px 50px 10px 50px;
+}
+
+.about_text {
+	width: 60%;
+}
+
+.about_btn {
+	color: #0074cc;
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.about_btn:hover {
+	color: #4da6ff;
+}
+
+.about_img {
+	width: 45%;
+	height: 450px;
+	margin: -37% auto auto 65%;
+}
+
+img.about {
+	width: 70%;
+	border-radius: 200px;
+}
+
+/* Images Transition */
+
+.imgs {
+	margin-top: 140px;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: #222;
+}
+
+.imgs .clip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}
+
+.imgs .clip.clipFirst {
+	background: url("../images/imgs\ 1.jpg");
+	background-size: cover;
+	clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+}
+
+.imgs .clip.clipSecond {
+	background: url("../images/imgs\ 2.jpg");
+	background-size: cover;
+	clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+}
+
+.imgs .clip.clipThird {
+	background: url("../images/imgs\ 3.jpg");
+	background-size: cover;
+	clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.imgs:hover .clip {
+	clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.imgs .clip:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.content {
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	width: 70%;
+	padding: 20px;
+	background: #fff;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.imgs .clip:hover .content {
+	bottom: 0;
+	opacity: 1;
+}
+
+/* Testimonials */
+
+.testimonials {
+	padding: 40px 0;
+	background: #f1f1f1;
+	color: #434343;
+	text-align: center;
+}
+
+.inner {
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.border {
+	width: 160px;
+	height: 5px;
+	background: #6ab04c;
+	margin: 26px auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.col {
+	flex: 33.33%;
+	max-width: 33.33%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.testimonial {
+	background: #fff;
+	padding: 30px;
+}
+.testimonial img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.name {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.stars {
+	color: #6ab04c;
+	margin-bottom: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+	#hero .text {
+		padding: 50px;
+		margin-top: 50%;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+}
+
+@media (max-width: 576px) {
+	#hero .text {
+		padding: 50px;
+		margin-top: 50%;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.col {
+		flex: 100%;
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.col {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+/* ANIMATION */
+
+@keyframes change {
+	0% {
+		background-image: url("../images/slideshow/1.webp");
+	}
+
+	20% {
+		background-image: url("../images/slideshow/2.jpg");
+	}
+
+	40% {
+		background-image: url("../images/slideshow/3.jpg");
+	}
+
+	60% {
+		background-image: url("../images/slideshow/4.jpg");
+	}
+
+	80% {
+		background-image: url("../images/slideshow/5.jpg");
+	}
+
+	100% {
+		background-image: url("../images/slideshow/6.jpg");
+	}
+}
