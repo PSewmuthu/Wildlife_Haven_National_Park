@@ -98,11 +98,12 @@ section#hero {
 	color: #fff;
 	position: relative;
 	width: 100%;
-	background: url("https://cdn.britannica.com/76/92676-050-F91A67C7/Sumatran-tiger-water.jpg");
+	background: url("images/slideshow/1.webp");
 	background-size: cover;
 	background-attachment: fixed;
 	clip-path: circle(180vh at 50% -80vh);
 	z-index: 1;
+	animation: change 20s infinite ease-in-out;
 }
 
 #hero h1 {
@@ -126,5 +127,33 @@ section#hero {
 	.dropdown_menu {
 		left: 2rem;
 		width: unset;
+	}
+}
+
+/* ANIMATION */
+
+@keyframes change {
+	0% {
+		background-image: url("images/slideshow/1.webp");
+	}
+
+	20% {
+		background-image: url("images/slideshow/2.jpg");
+	}
+
+	40% {
+		background-image: url("images/slideshow/3.jpg");
+	}
+
+	60% {
+		background-image: url("images/slideshow/4.jpg");
+	}
+
+	80% {
+		background-image: url("images/slideshow/5.jpg");
+	}
+
+	100% {
+		background-image: url("images/slideshow/6.jpg");
 	}
 }
