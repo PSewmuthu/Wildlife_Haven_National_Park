@@ -2,6 +2,8 @@
     Repository  : https://github.com/PSewmuthu/Wildlife_Haven_National_Park
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Merienda&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -108,9 +110,22 @@ section#hero {
 	animation: change 60s infinite ease;
 }
 
+#hero .text {
+	width: 70%;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 #hero h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 	margin-bottom: 1rem;
+	font-family: "Lilita One";
+}
+
+#hero p {
+	font-size: 1.5rem;
+	color: lightcyan;
+	font-family: "Merienda";
 }
 
 /* RESPONSIVE */
@@ -123,12 +138,24 @@ section#hero {
 	.dropdown_menu {
 		display: block;
 	}
+
+	#hero .text {
+		padding: 50px;
+		margin-top: 50%;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
 }
 
 @media (max-width: 576px) {
 	.dropdown_menu {
 		left: 2rem;
 		width: unset;
+	}
+
+	#hero .text {
+		padding: 50px;
+		margin-top: 50%;
+		background-color: rgba(0, 0, 0, 0.3);
 	}
 }
 
