@@ -136,21 +136,21 @@ section#hero {
 	width: 60%;
 }
 
-.action_btn {
+.about_btn {
 	color: #0074cc;
 	display: flex;
 	gap: 1rem;
 	margin-top: 1rem;
 }
 
-.action_btn:hover {
+.about_btn:hover {
 	color: #4da6ff;
 }
 
 .about_img {
 	width: 45%;
 	height: 450px;
-	margin: -35% auto auto 65%;
+	margin: -37% auto auto 65%;
 }
 
 img.about {
