@@ -34,9 +34,11 @@ a:hover {
 /* HEADER */
 
 header {
-	position: relative;
+	position: fixed;
 	padding: 0 2rem;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	z-index: 100;
 }
 
 .navbar {
