@@ -1,0 +1,238 @@
+/*
+    Repository  : https://github.com/PSewmuthu/Wildlife_Haven_National_Park
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lilita+One&family=Merienda&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	min-height: 150vh;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.logo a {
+	color: #85f911;
+	font-family: "Black Ops One";
+}
+
+a:hover {
+	color: orange;
+}
+
+/* HEADER */
+
+header {
+	position: fixed;
+	padding: 0 2rem;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar {
+	width: 100%;
+	height: 60px;
+	max-width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.navbar .links {
+	display: flex;
+	gap: 2rem;
+}
+
+/* DROPDOWN MENU */
+
+.dropdown_menu {
+	display: none;
+	position: absolute;
+	right: 2rem;
+	top: 60px;
+	width: 300px;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	z-index: 10;
+}
+
+.dropdown_menu.open {
+	height: 240px;
+}
+
+.dropdown_menu li {
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Footer */
+
+footer {
+	background: linear-gradient(to right, #00093c, #2d0b00);
+	border-top-left-radius: 100px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+footer * {
+	color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 7%;
+}
+
+.footer-col {
+	width: 25%;
+}
+
+.footer-col h2 {
+	font-optical-sizing: 1.7em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: "Black Ops One";
+}
+
+p.email {
+	margin: 30px 0;
+}
+
+p.phone {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.footer-col .text-office {
+	margin-bottom: 20px;
+}
+.underline {
+	width: 70px;
+	height: 3px;
+	position: relative;
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.underline span {
+	width: 7px;
+	height: 100%;
+	position: absolute;
+	left: 10px;
+	background-color: rgb(63, 63, 63);
+	border-radius: 3px;
+	animation: moving 1.5s linear infinite;
+}
+
+.footer-col ul {
+	list-style-type: none;
+	padding-top: 10px;
+}
+
+.footer-col ul li {
+	margin: 10px;
+}
+
+.footer-col form {
+	margin-top: 20px;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	display: flex;
+}
+
+.footer-col form input {
+	width: 70%;
+	background: transparent;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+}
+
+.footer-col form i {
+	font-size: 15px;
+}
+
+.footer-col .social-icons {
+	margin-top: 20px;
+}
+
+.footer-col .social-icons i {
+	padding: 10px;
+	background-color: white;
+	color: #00093c;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.footer-para {
+	max-width: 250px;
+}
+
+a.ico:hover i {
+	-webkit-transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.2);
+	-o-transform: rotate(360deg) scale(1.2);
+	transform: rotate(360deg) scale(1.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+	.navbar .links {
+		display: none;
+	}
+
+	.dropdown_menu {
+		display: block;
+	}
+}
+
+@media (max-width: 576px) {
+	.dropdown_menu {
+		left: 2rem;
+		width: unset;
+	}
+}
+
+/* ANIMATION */
+
+@keyframes moving {
+	0% {
+		left: -20px;
+	}
+	100% {
+		left: 100%;
+	}
+}
