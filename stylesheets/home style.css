@@ -106,19 +106,19 @@ img.about {
 }
 
 .imgs .clip.clipFirst {
-	background: url("../images/imgs\ 1.jpg");
+	background: url("../images/imgs\ 1.webp");
 	background-size: cover;
 	clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
 }
 
 .imgs .clip.clipSecond {
-	background: url("../images/imgs\ 2.jpg");
+	background: url("../images/imgs\ 2.webp");
 	background-size: cover;
 	clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
 
 .imgs .clip.clipThird {
-	background: url("../images/imgs\ 3.jpg");
+	background: url("../images/imgs\ 3.webp");
 	background-size: cover;
 	clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
@@ -240,22 +240,22 @@ img.about {
 	}
 
 	20% {
-		background-image: url("../images/slideshow/2.jpg");
+		background-image: url("../images/slideshow/2.webp");
 	}
 
 	40% {
-		background-image: url("../images/slideshow/3.jpg");
+		background-image: url("../images/slideshow/3.webp");
 	}
 
 	60% {
-		background-image: url("../images/slideshow/4.jpg");
+		background-image: url("../images/slideshow/4.webp");
 	}
 
 	80% {
-		background-image: url("../images/slideshow/5.jpg");
+		background-image: url("../images/slideshow/5.webp");
 	}
 
 	100% {
-		background-image: url("../images/slideshow/6.jpg");
+		background-image: url("../images/slideshow/6.webp");
 	}
 }
