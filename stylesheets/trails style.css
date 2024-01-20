@@ -19,3 +19,15 @@ h1 {
 	text-align: center;
 	font-size: 3rem;
 }
+
+.trails-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.trails-container h1 {
+	margin: 3rem 0;
+	text-align: center;
+	font-size: 3rem;
+}
