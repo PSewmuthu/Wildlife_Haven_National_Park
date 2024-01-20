@@ -1,0 +1,33 @@
+/*
+    Repository  : https://github.com/PSewmuthu/Wildlife_Haven_National_Park
+	Live Preview: https://psewmuthu.github.io/Wildlife_Haven_National_Park/
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	min-height: 150vh;
+}
+
+h1 {
+	margin: 3rem 0;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.wildlife-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.wildlife-container h1 {
+	margin: 3rem 0;
+	text-align: center;
+	font-size: 3rem;
+}
