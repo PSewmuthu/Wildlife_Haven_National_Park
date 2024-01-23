@@ -31,3 +31,34 @@ h1 {
 	text-align: center;
 	font-size: 3rem;
 }
+
+.about-img {
+	width: 50%;
+	height: 300px;
+	background-image: url("../images/about\ us.jpg");
+	background-size: cover;
+	border-radius: 5%;
+	margin: auto auto 2% 30%;
+}
+
+article {
+	width: 96%;
+	margin: auto auto 2% 2%;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 2rem 0 1rem 1rem;
+}
+
+article.mission {
+	margin: auto 5% 2% 5%;
+}
+
+article.mission p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
