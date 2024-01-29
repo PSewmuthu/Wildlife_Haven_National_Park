@@ -3,34 +3,34 @@
 ## Pages in the Website
 
 1. Home page
-   <img src="markdown/home.PNG">
+   <img src="markdown images/home.PNG">
 
 2. Trails page
-   <img src="markdown/trails.PNG">
+   <img src="markdown images/trails.PNG">
 
 3. Camping page
-   <img src="markdown/camping.PNG">
+   <img src="markdown images/camping.PNG">
 
 4. Wildlife page
-   <img src="markdown/wildlife.PNG">
+   <img src="markdown images/wildlife.PNG">
 
 5. Activities page
-   <img src="markdown/activities.PNG">
+   <img src="markdown images/activities.PNG">
 
 6. Gallery page
-   <img src="markdown/gallery.PNG">
+   <img src="markdown images/gallery.PNG">
 
 7. Visitor Information page
-   <img src="markdown/visitor information.PNG">
+   <img src="markdown images/visitor information.PNG">
 
 8. About Us page
-   <img src="markdown/about us.PNG">
+   <img src="markdown images/about us.PNG">
 
 9. Contact Us page
-   <img src="markdown/contact us.PNG">
+   <img src="markdown images/contact us.PNG">
 
 10. Get Start page
-    <img src="markdown/get start.PNG">
+    <img src="markdown images/get start.PNG">
 
 ## Live Preview
 
