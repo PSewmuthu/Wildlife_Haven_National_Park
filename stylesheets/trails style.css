@@ -21,13 +21,48 @@ h1 {
 }
 
 .trails-container {
-	max-width: 1440px;
 	margin: 0 auto;
 	padding-top: 20px;
+	padding: 2em;
+	max-width: 1000px;
+	margin: auto;
 }
 
 .trails-container h1 {
 	margin: 3rem 0;
 	text-align: center;
 	font-size: 3rem;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+.trail {
+	margin-bottom: 2em;
+	padding: 20px;
+	background-color: rgba(7, 29, 2, 0.5);
+}
+.trail h3 {
+	margin-bottom: 0.5em;
+	color: white;
+}
+
+.trail img {
+	width: 100%;
+	height: auto;
+}
+
+.trail p,
+.trail ul {
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 0.5em;
 }
